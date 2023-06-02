@@ -1,4 +1,4 @@
-from boards._get import Get
+from _get import Get
 from _post import Post
 from _put import Put
 from _delete import Delete

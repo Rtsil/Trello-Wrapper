@@ -1,9 +1,10 @@
 import os
-from _get import Get
 from boards import Boards
+from actions import Actions
+from cards import Cards
 
 
-class Trello(Get):
+class Trello():
     def __init__(self, token=None, api_key=None):
         if token is None:
             token = os.getenv('TRELLO_TOKEN')
@@ -20,4 +21,8 @@ class Trello(Get):
     def Boards(self):
         return Boards(self.api_key, self.token)
 
+    def Actions(self):
+        return Actions(self.api_key, self.token)
 
+    def Cards(self):
+        return Cards(self.api_key, self.token)
