@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Trello-Wrapper.iml" filepath="$PROJECT_DIR$/.idea/Trello-Wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TrelloWrapper/.idea/TrelloWrapper.iml" filepath="$PROJECT_DIR$/../TrelloWrapper/.idea/TrelloWrapper.iml" />
     </modules>
   </component>
 </project>

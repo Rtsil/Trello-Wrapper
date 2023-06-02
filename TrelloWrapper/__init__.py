@@ -1,7 +1,7 @@
 import os
-from boards import Boards
-from actions import Actions
-from cards import Cards
+from TrelloWrapper.boards import Boards
+from TrelloWrapper.actions import Actions
+from TrelloWrapper.cards import Cards
 
 
 class Trello():
