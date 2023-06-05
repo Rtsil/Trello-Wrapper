@@ -1,30 +1,25 @@
 from setuptools import setup, find_packages
-
+with open("README2.md", "r") as f:
+    long_description = f.read()
 
 setup(
-    name='TrelloWrapper',
-    version='1.0.0',
-    author='Your Name',
-    author_email='your_email@example.com',
-    description='A short description of your package',
-    long_description='A longer description of your package',
-    url='https://github.com/your_username/your_package',
+    name='Trello-Wrapper',
+    version='0.0.3',
+    author='Rtsil',
+    author_email='rtsilavotahina@gmail.com',
+    description='A Python Wrapper around the Trello API',
+    long_description=long_description,
+    url='https://github.com/Rtsil/Trello-Wrapper',
     packages=find_packages(),
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.9',
     ],
-    keywords='your, package, keywords',
+    keywords=['trello', 'wrapper', 'api'],
     install_requires=[
         "requests"
-    ],
-    entry_points={
-        'console_scripts': [
-            'your_script_name=your_package_name.module_name:main',
-        ],
-    },
+    ]
+
 )
 
